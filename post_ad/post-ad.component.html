@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Post an Ad</h2>
+        <form >
+          <div class="mb-3">
+            <label for="adPhoto" class="form-label">Ad Photo</label>
+            <input type="file" class="form-control" id="adPhoto" name="adPhoto"  required>
+          </div>
+          <div class="mb-3">
+            <label for="adTitle" class="form-label">Ad Title</label>
+            <input type="text" class="form-control" id="adTitle" name="adTitle"  required>
+          </div>
+          <div class="mb-3">
+            <label for="adDescription" class="form-label">Ad Description</label>
+            <textarea class="form-control" id="adDescription" name="adDescription" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" > <a routerLink="/listing" style="color: white;text-decoration: none;">Submit</a></button>
+
+        </form>
+      </div>
+      
+</body>
+</html>
